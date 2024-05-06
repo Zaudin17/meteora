@@ -949,7 +949,7 @@ form .college-id input {
   }
   #nav {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 0px;
     font-size: 12px;
     
