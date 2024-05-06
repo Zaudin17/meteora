@@ -322,7 +322,7 @@ header {
   width: 80%;
   margin: auto;
   padding: 10px;
-  height: 220px;
+  height: 100%;
   gap: 40px;
 }
 #about-box img{
@@ -943,35 +943,43 @@ form .college-id input {
     position: fixed;
     top: 21px;
     left: 10px;
+    
   }
+ 
   #middle {
+    left: 12px;
     font-size: 20px;
+    top: 10px;
   }
   #nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 0px;
     font-size: 12px;
     
   }
   #right{
-    right: 1px;
+    right: -10px;
   }
 
   #right img {
-    height: 70px;
+    height: 50px;
     width: auto;
    
   }
   #left img {
-    height: 80px;
+    height: 50px;
     width: auto;
+  }
+  #background-index{
+    background-size: 200%;
+    background-repeat: no-repeat;
   }
   .button {
     transform: scale(0.5);
   }
   .button:hover{
-    transform: scale(0.2);
+    transform: scale(0.3);
   }
   #page1 h1 {
     transform: scale(0.4);
@@ -979,29 +987,29 @@ form .college-id input {
   #page1 h3 {
     transform: scale(0.4);
   }
+  #frame{
+    height: 200px;
+  }
+
   #about .about-content #about-box{
     flex-direction: column;
     gap: 30px;
-    margin-top: 77%;
     
   }
- #page2{
-  margin-top: 80%;
- }
  .side-nav-box{
   display: none
  }
  #container{
-  height: 80%;
+  height: 500px;
+  max-width: 69%;
+  margin: auto;
   margin-top: 20%;
-  width: 70%;
  }
  #container form .user-details {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin: 13px 0px 4px 2px;
-  flex-direction: column;
+
   
 }
 #container form .user-details .input-box {
@@ -1014,6 +1022,7 @@ form .college-id input {
   #container fieldset .participant-section{
     display: grid;
     grid-template-columns: repeat(1, 1fr); 
+    
   }
   #events span{
     white-space: nowrap;
@@ -1022,5 +1031,13 @@ form .college-id input {
   #buttonForm input{
       font-size: 10px;
      padding: 2px;
+  }
+  #welcome-page{
+    width: 60%;
+    font-size: 18px;
+    
+  }
+  #welcome-page section{
+    overflow: scroll;
   }
 }
