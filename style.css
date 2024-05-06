@@ -984,6 +984,9 @@ form .college-id input {
   #page1 h1 {
     transform: scale(0.4);
   }
+    #page1 h1:hover {
+    transform: scale(0.3);
+  }
   #page1 h3 {
     transform: scale(0.4);
   }
